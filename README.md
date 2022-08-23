@@ -28,13 +28,13 @@ Así mismo, se soporta la creación de varias fuentes de luz puntuales, cada una
 
 Se puede manipular la pocición de la cámara y el campo de visión en grados, la dirección se indica mediante un punto. También se requiere de una textura (puede tener cualquier razón aspecto y cualquier resolución) para similuar el cielo.
 
-<p align="center"><img width=65% src="rpimgs/shinyMultiTest.png"/>
+<p align="center"><img width=65% src="imgs/shinyMultiTest.png"/>
 
 *(En esta imagen se pueden apreciar todos los tipos de primitiva, todos los tipos de materiales menos el dialectrico y una sola luz con color calido)*
 
 </p>
 
-<p align="center"><img width=65% src="rpimgs/dielectricTest.png"/>
+<p align="center"><img width=65% src="imgs/dielectricTest.png"/>
 
 *(Metarial dielectrico con un material de textura opaca siendo refractado. Se tiene una imagen equirectangular para el cielo)*
 
@@ -54,7 +54,7 @@ Saliendo un poco del infinitivo, no logré implementar el raytracer jerarquico d
 
 Tecnicamente solo para el modelo de phong (sin reflecciones ni nada elegante) funcionaría bien, ya que las normales y la distancia de intersección eran correctamente calculadas, sin embargo las reflecciones y refracciones representan un problema ya que la intersección con respecto al marco de objeto y la intersección con respecto al marco del mundo no parecian concidir respecto a la orientación o dirección de la cual venía el rayo, terminando con resultados como este
 
-<p align="center"><img width=65% src="rpimgs/hierarchal_fail.png"/></p>
+<p align="center"><img width=65% src="imgs/hierarchal_fail.png"/></p>
 
 donde se puede apreciar que el cubo parece estár mostrando los reflejos que están del lado opuesto a la cara que se presenta y además parecen estar rotados 90°
 
@@ -62,7 +62,7 @@ Lo más lejos que llegué respecto a la derivación de la fuente de este error f
 
 Esta es la imagen correcta. Utilizando trasnformaciones precalculadas al momento de importar el objeto.
 
-<p align="center"><img width=65% src="rpimgs/ShinyCow2_out.png"/></p>
+<p align="center"><img width=65% src="imgs/ShinyCow2_out.png"/></p>
 
 ## Resultados finales
 
@@ -70,33 +70,11 @@ Como mencioné anteriormente, vienen incluidas las escenas de ShinyCow y TestSph
 
 Incluí una última escene default. niceScene. Esta es por mucho las que mas tarda en cargar, ya que con un nivel de antialiasing 4, tardó 32 horas en cargar haciendo uso de 16 hilos (2 hilos mas que los usados para ShinyCow y TestSpheres).
 
-<p align="center"><img width=65% src="rpimgs/niceScene_out.png"/>
+<p align="center"><img width=65% src="imgs/niceScene_out.png"/>
 
 *(imagen generada por niceScene.json)*
 
 </p>
-
-## Objetivos
-
-1. Los objetos son visibles en la imagen. Esto implica que puedes generar rayos primarios que 
-con esferas y puedes generar imágenes PNG como archivo de salida. | **COMPLETADO**
--------
-2. Se generan adecuadamente imágenes con cubos y mallas poligonales. | **COMPLETADO**
--------
-3. Los objetos se ordenan adecuadamente de atrás hacia adelante. | **COMPLETADO**
--------
-4. Hay una función que genera un fondo de la escena sin que oscurezca la vista de ninguno de los objetos en la escena. Este fondo se encuentra en todas las imágenes generadas. | **COMPLETADO**
--------
-5. El modelo de iluminación de difusión y especular (Phong) funciona correctamente. | **COMPLETADO**
--------
-6. Las sombras funcionan correctamente. | **COMPLETADO**
-------- 
-7. Se proporciona un script que define y dibuja (render) una escena original. | **COMPLETADO**
--------
-8. Las transformaciones jerárquicas funcionan correctamente. Las esferas y los cubos se pueden transformar con transformaciones afines. | **15% completo**
--------
-9. Los volúmenes englobantes (esferas o cajas) se han implementado para objetos poligonales como se muestra en las imágenes con rendering especial. | **COMPLETADO**
--------
 
 
 ## Fuentes
