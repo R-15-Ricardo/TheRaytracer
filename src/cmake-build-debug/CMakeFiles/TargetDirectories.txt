@@ -1,0 +1,3 @@
+/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/cmake-build-debug/CMakeFiles/raytracer.dir

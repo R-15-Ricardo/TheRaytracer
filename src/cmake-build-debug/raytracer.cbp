@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="raytracer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\..\usr\lib64\;CMake Files\..\..\..\..\..\..\..\..\usr\lib64\cmake\;CMake Files\..\..\..\..\..\..\..\..\usr\lib64\cmake\Boost-1.76.0\;CMake Files\..\..\..\..\..\..\..\..\usr\lib64\cmake\boost_headers-1.76.0\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="raytracer">
+				<Option output="/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/cmake-build-debug/raytracer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/cmake-build-debug/Makefile&quot;  VERBOSE=1 raytracer"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="raytracer/fast">
+				<Option output="/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/cmake-build-debug/raytracer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/cmake-build-debug/Makefile&quot;  VERBOSE=1 raytracer/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/Entity/Camera.cpp">
+			<Option target="raytracer"/>
+		</Unit>
+		<Unit filename="/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/Entity/Camera.hpp">
+			<Option target="raytracer"/>
+		</Unit>
+		<Unit filename="/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/Entity/LightSource.hpp">
+			<Option target="raytracer"/>
+		</Unit>
+		<Unit filename="/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/Entity/Object.cpp">
+			<Option target="raytracer"/>
+		</Unit>
+		<Unit filename="/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/Entity/Object.hpp">
+			<Option target="raytracer"/>
+		</Unit>
+		<Unit filename="/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/Material/Material.cpp">
+			<Option target="raytracer"/>
+		</Unit>
+		<Unit filename="/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/Material/Material.hpp">
+			<Option target="raytracer"/>
+		</Unit>
+		<Unit filename="/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/Math/AffineTransform.cpp">
+			<Option target="raytracer"/>
+		</Unit>
+		<Unit filename="/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/Math/AffineTransform.hpp">
+			<Option target="raytracer"/>
+		</Unit>
+		<Unit filename="/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/Math/Ray.hpp">
+			<Option target="raytracer"/>
+		</Unit>
+		<Unit filename="/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/Renderer/Renderer.cpp">
+			<Option target="raytracer"/>
+		</Unit>
+		<Unit filename="/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/Renderer/Renderer.hpp">
+			<Option target="raytracer"/>
+		</Unit>
+		<Unit filename="/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/Renderer/Scene.cpp">
+			<Option target="raytracer"/>
+		</Unit>
+		<Unit filename="/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/Renderer/Scene.hpp">
+			<Option target="raytracer"/>
+		</Unit>
+		<Unit filename="/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/Util/Epsilon.hpp">
+			<Option target="raytracer"/>
+		</Unit>
+		<Unit filename="/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/Util/RayCaster.cpp">
+			<Option target="raytracer"/>
+		</Unit>
+		<Unit filename="/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/Util/RayCaster.hpp">
+			<Option target="raytracer"/>
+		</Unit>
+		<Unit filename="/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/main.cpp">
+			<Option target="raytracer"/>
+		</Unit>
+		<Unit filename="/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/../../../../../../../../usr/lib64/cmake/Boost-1.76.0/BoostConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib64\cmake\Boost-1.76.0\"/>
+		</Unit>
+		<Unit filename="/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/../../../../../../../../usr/lib64/cmake/Boost-1.76.0/BoostConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib64\cmake\Boost-1.76.0\"/>
+		</Unit>
+		<Unit filename="/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/../../../../../../../../usr/lib64/cmake/boost_headers-1.76.0/boost_headers-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib64\cmake\boost_headers-1.76.0\"/>
+		</Unit>
+		<Unit filename="/home/ric/Documents/Escuela/5to_semestre/ComputerGraphics/TheRaytracer/raytracer_src/../../../../../../../../usr/lib64/cmake/boost_headers-1.76.0/boost_headers-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib64\cmake\boost_headers-1.76.0\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

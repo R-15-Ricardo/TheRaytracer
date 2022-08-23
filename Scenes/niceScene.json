@@ -1,0 +1,81 @@
+{
+	"camera" : {
+		"position": [-6.92,5.64,7.35],
+		"headding": [7.14,-1.12,-7.38],
+		"FOV": 30.0
+	},
+
+	"light_sources" : {
+		"light1" : {
+			"position": [1.79,5.90,7.37],
+			"color": [255, 255, 251],
+			"intensity": 0.6 
+		},
+		"light2" : {
+			"position": [-6.47,6.33,-3.76],
+			"color": [255, 255, 251],
+			"intensity": 0.6 
+		}
+	},
+
+	"sky" : {
+		"dome_path": "Res/Textures/studio.png",
+		"ambient": 0.2
+	},
+
+	"objects" : {
+		"globe": {
+			"type": "sphere",
+			"position": [1.72, 2.07, 2.42],
+			"radius": 0.8,
+			"material" : {
+				"texture": "Res/Textures/earth.png",
+				"reflectivness": 0.0,
+				"gloss": 0.05 
+			}
+		},
+		"metal": {
+			"type": "sphere",
+			"position": [1.17, 1.83, 3.38],
+			"radius": 0.54,
+			"material" : {
+				"color": [192,192,192],
+				"reflectivness": 0.9,
+				"gloss": 0.1 
+			}
+		},
+		"glass": {
+			"type": "sphere",
+			"position": [0.53, 1.68, 2.10],
+			"radius": 0.44,
+			"material" : {
+				"color": [22, 1, 9],
+				"r_Index": 1.52
+			}
+		},
+		"mug": {
+			"type": "mesh",
+			"path": "Res/Models/mug.obj",
+			"position": [-1.87,1.27,-1.5],
+			"orientation": [90,0,0],
+			"size": 0.8,
+			"material" : {
+				"color": [105, 208, 255],
+				"reflectivness": 0.1,
+				"gloss": 0.3
+			}
+		},
+		"table": {
+			"type": "mesh",
+			"path": "Res/Models/table.obj",
+			"position": [0,0,0],
+			"orientation": [90,0,0],
+			"size": 0.18,
+			"material" : {
+				"texture": "Res/Textures/tableWood.png",
+				"reflectivness": 0.0,
+				"gloss": 0.0
+			}
+		}
+	}
+}

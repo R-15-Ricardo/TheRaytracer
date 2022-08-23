@@ -1,0 +1,56 @@
+{
+	"camera" : {
+		"position": [10,3.5,-10],
+		"headding": [4,2.5,-3],
+		"FOV": 70.0
+	},
+
+	"light_sources" : {
+		"light" : {
+			"position": [0,30,0],
+			"color": [255,255,255],
+			"intensity": 0.6 
+		}
+	},
+
+	"sky" : {
+		"dome_path": "Res/Textures/ClearSkies.png",
+		"ambient": 0.2
+	},
+
+	"objects" : {
+		"cow": {
+			"type": "mesh",
+			"path": "Res/Models/testCow.obj",
+			"position": [0,2.5,0],
+			"orientation": [0,0,0],
+			"size": 1.0,
+			"material" : {
+				"color": [222, 162, 33],
+				"reflectivness": 0.1,
+				"gloss": 0.05
+			}
+		},
+		"cube": {
+			"type": "mesh",
+			"path": "Res/Models/cubeTest.obj",
+			"position": [-0.2,1.0,-1.75],
+			"orientation": [0,0,0],
+			"size": 2.0,
+			"material" : {
+				"color": [25, 25, 25],
+				"r_Index": 1.5 
+			}
+		},
+		"floor": {
+			"type": "plane",
+			"normal": [0,1,0],
+			"distance": -1,
+			"material" : {
+				"texture": "Res/Textures/mosaicTexture.png",
+				"reflectivness": 0.3,
+				"gloss": 0.05 
+			}
+		}
+	}
+}

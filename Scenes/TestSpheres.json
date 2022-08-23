@@ -1,0 +1,53 @@
+{
+	"camera" : {
+		"position": [3,0.75,-4],
+		"headding": [0,0,0],
+		"FOV": 50.0
+	},
+
+	"light_sources" : {
+		"light" : {
+			"position": [11,10,2.5],
+			"color": [255,255,255],
+			"intensity": 1.0 
+		}
+	},
+
+	"sky" : {
+		"dome_path": "Res/Textures/ClearSkies.png",
+		"ambient": 0.2
+	},
+
+	"objects" : {
+		"sphere1": {
+			"type": "sphere",
+			"position": [0,0,0],
+			"radius": 1.0,
+			"material": {
+				"color": [127,255,127],
+				"reflectivness": 0.9,
+				"gloss": 0.2 
+			}
+		},
+		"sphere2": {
+			"type": "sphere",
+			"position": [1,0.25,1.75],
+			"radius": 0.5,
+			"material" : {
+				"texture": "Res/Textures/soCuteMika.png",
+				"reflectivness": 0.2,
+				"gloss": 0.3 
+			}
+		},
+		"plane": {
+			"type": "plane",
+			"normal": [0,1,0],
+			"distance": -1,
+			"material" : {
+				"color": [127,63,63],
+				"reflectivness": 0,
+				"gloss": 0
+			}
+		}
+	}
+}
